@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product filter</title>
+    
+    
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="search here...">
+       
+    <button id="search">Search</button>
+    </div>
+    <div id="buttons">
+       <button class="button-value" onclick="filterItem('all')">All</button>
+       <button class="button-value" onclick="filterItem('Vegetable')">Vegetable</button>
+       <button class="button-value" onclick="filterItem('Fruit')">Fruit</button>
+       <button class="button-value" onclick="filterItem('Rice')">Rice</button>
+       <button class="button-value" onclick="filterItem('Snacks')">Snacks</button>
+       
+    </div>
+    <div id="items"></div>
+ 
+
+</div>
+    <script src="filter.js"></script>
+</body>
+</html>

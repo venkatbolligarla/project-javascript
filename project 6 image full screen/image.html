@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <div class="container">
+        <div class="full-img" id="fullImgBox">
+           <img src="virat.png" id="fullImg" >
+           <span onclick="closeFullImg()">X</span>
+
+        </div>
+        <div class="image">
+            <img src="virat.png" onclick="openFullImg(this.src)">
+            <img src="faf.png" onclick="openFullImg(this.src)">
+            <img src="maxwell.png" onclick="openFullImg(this.src)">
+            <img src="gayak.png" onclick="openFullImg(this.src)">
+            <img src="MD.png" onclick="openFullImg(this.src)">
+            <img src="jadeja.png" onclick="openFullImg(this.src)">
+        </div>
+    </div>
+    <script src="image.js"></script>
+</body>
+</html>
